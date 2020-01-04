@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{596055F0-8355-BD20-3B16-1E3136D07B99}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectGenerator>VSTU</UnityProjectGenerator>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.6.6f2</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_6;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT;MOBILE_INPUT;NATIVE_PLUGINS_LITE_VERSION;USES_ADDRESS_BOOK;USES_NETWORK_CONNECTIVITY;USES_SHARING;UNITY_HAS_GOOGLEVR;NATIVE_PLUGINS_LITE_VERSION</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_6;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT;MOBILE_INPUT;NATIVE_PLUGINS_LITE_VERSION;USES_ADDRESS_BOOK;USES_NETWORK_CONNECTIVITY;USES_SHARING;UNITY_HAS_GOOGLEVR;NATIVE_PLUGINS_LITE_VERSION</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="TextMeshPro-5.6-Editor">
+      <HintPath>Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-5.6-Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="TextMeshPro-5.6-Runtime">
+      <HintPath>Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-5.6-Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\LightningBolt\LightningBoltScript.cs" />
+    <Compile Include="Assets\Particle Effects\AfterburnerPhysicsForce.cs" />
+    <Compile Include="Assets\Particle Effects\SmokeParticles.cs" />
+    <Compile Include="Assets\PlayFabSdk\Admin\PlayFabAdminAPI.cs" />
+    <Compile Include="Assets\PlayFabSdk\Admin\PlayFabAdminInstanceAPI.cs" />
+    <Compile Include="Assets\PlayFabSdk\Admin\PlayFabAdminModels.cs" />
+    <Compile Include="Assets\PlayFabSdk\Admin\PlayFabEvents.cs" />
+    <Compile Include="Assets\PlayFabSdk\Authentication\PlayFabAuthenticationAPI.cs" />
+    <Compile Include="Assets\PlayFabSdk\Authentication\PlayFabAuthenticationInstanceAPI.cs" />
+    <Compile Include="Assets\PlayFabSdk\Authentication\PlayFabAuthenticationModels.cs" />
+    <Compile Include="Assets\PlayFabSdk\Authentication\PlayFabEvents.cs" />
+    <Compile Include="Assets\PlayFabSdk\Client\PlayFabClientAPI.cs" />
+    <Compile Include="Assets\PlayFabSdk\Client\PlayFabClientInstanceAPI.cs" />
+    <Compile Include="Assets\PlayFabSdk\Client\PlayFabClientModels.cs" />
+    <Compile Include="Assets\PlayFabSdk\Client\PlayFabDeviceUtil.cs" />
+    <Compile Include="Assets\PlayFabSdk\Client\PlayFabEvents.cs" />
+    <Compile Include="Assets\PlayFabSdk\CloudScript\PlayFabCloudScriptAPI.cs" />
+    <Compile Include="Assets\PlayFabSdk\CloudScript\PlayFabCloudScriptInstanceAPI.cs" />
+    <Compile Include="Assets\PlayFabSdk\CloudScript\PlayFabCloudScriptModels.cs" />
+    <Compile Include="Assets\PlayFabSdk\CloudScript\PlayFabEvents.cs" />
+    <Compile Include="Assets\PlayFabSdk\Data\PlayFabDataAPI.cs" />
+    <Compile Include="Assets\PlayFabSdk\Data\PlayFabDataInstanceAPI.cs" />
+    <Compile Include="Assets\PlayFabSdk\Data\PlayFabDataModels.cs" />
+    <Compile Include="Assets\PlayFabSdk\Data\PlayFabEvents.cs" />
+    <Compile Include="Assets\PlayFabSdk\Entity\ScreenTimeTracker.cs" />
+    <Compile Include="Assets\PlayFabSdk\Events\PlayFabEvents.cs" />
+    <Compile Include="Assets\PlayFabSdk\Events\PlayFabEventsAPI.cs" />
+    <Compile Include="Assets\PlayFabSdk\Events\PlayFabEventsInstanceAPI.cs" />
+    <Compile Include="Assets\PlayFabSdk\Events\PlayFabEventsModels.cs" />
+    <Compile Include="Assets\PlayFabSdk\Groups\PlayFabEvents.cs" />
+    <Compile Include="Assets\PlayFabSdk\Groups\PlayFabGroupsAPI.cs" />
+    <Compile Include="Assets\PlayFabSdk\Groups\PlayFabGroupsInstanceAPI.cs" />
+    <Compile Include="Assets\PlayFabSdk\Groups\PlayFabGroupsModels.cs" />
+    <Compile Include="Assets\PlayFabSdk\Localization\PlayFabEvents.cs" />
+    <Compile Include="Assets\PlayFabSdk\Localization\PlayFabLocalizationAPI.cs" />
+    <Compile Include="Assets\PlayFabSdk\Localization\PlayFabLocalizationInstanceAPI.cs" />
+    <Compile Include="Assets\PlayFabSdk\Localization\PlayFabLocalizationModels.cs" />
+    <Compile Include="Assets\PlayFabSdk\Matchmaker\PlayFabEvents.cs" />
+    <Compile Include="Assets\PlayFabSdk\Matchmaker\PlayFabMatchmakerAPI.cs" />
+    <Compile Include="Assets\PlayFabSdk\Matchmaker\PlayFabMatchmakerInstanceAPI.cs" />
+    <Compile Include="Assets\PlayFabSdk\Matchmaker\PlayFabMatchmakerModels.cs" />
+    <Compile Include="Assets\PlayFabSdk\Multiplayer\PlayFabEvents.cs" />
+    <Compile Include="Assets\PlayFabSdk\Multiplayer\PlayFabMultiplayerAPI.cs" />
+    <Compile Include="Assets\PlayFabSdk\Multiplayer\PlayFabMultiplayerInstanceAPI.cs" />
+    <Compile Include="Assets\PlayFabSdk\Multiplayer\PlayFabMultiplayerModels.cs" />
+    <Compile Include="Assets\PlayFabSdk\Profiles\PlayFabEvents.cs" />
+    <Compile Include="Assets\PlayFabSdk\Profiles\PlayFabProfilesAPI.cs" />
+    <Compile Include="Assets\PlayFabSdk\Profiles\PlayFabProfilesInstanceAPI.cs" />
+    <Compile Include="Assets\PlayFabSdk\Profiles\PlayFabProfilesModels.cs" />
+    <Compile Include="Assets\PlayFabSdk\Server\PlayFabEvents.cs" />
+    <Compile Include="Assets\PlayFabSdk\Server\PlayFabServerAPI.cs" />
+    <Compile Include="Assets\PlayFabSdk\Server\PlayFabServerInstanceAPI.cs" />
+    <Compile Include="Assets\PlayFabSdk\Server\PlayFabServerModels.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\External\aria\BondHelper.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\External\aria\CompactBinaryProtocolWriter.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\External\aria\MiniBondSerializer.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\External\aria\Schema3_types.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\External\aria\Utils.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\Internal\ISerializer.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\Internal\Log.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\Internal\PlayFabErrors.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\Internal\PlayFabHttp\IPlayFabHttp.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\Internal\PlayFabHttp\PlayFabHTTP.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\Internal\PlayFabHttp\PlayFabUnityHttp.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\Internal\PlayFabHttp\PlayFabWWW.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\Internal\PlayFabHttp\PlayFabWebRequest.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\Internal\SimpleJson.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\Internal\SingletonMonoBehaviour.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\Internal\Util.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\Internal\wsaReflectionExtensions.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\Ionic.Zlib\CRC32.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\Ionic.Zlib\Deflate.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\Ionic.Zlib\DeflateStream.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\Ionic.Zlib\GZipStream.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\Ionic.Zlib\InfTree.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\Ionic.Zlib\Inflate.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\Ionic.Zlib\ParallelDeflateOutputStream.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\Ionic.Zlib\ZTree.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\Ionic.Zlib\Zlib.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\Ionic.Zlib\ZlibBaseStream.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\Ionic.Zlib\ZlibCodec.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\Ionic.Zlib\ZlibConstants.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\Ionic.Zlib\ZlibStream.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\Models\PlayFabSharedSettings.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\Models\SharedModels.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\Public\IPlayFabPlugin.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\Public\ISerializerPlugin.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\Public\ITransportPlugin.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\Public\PlayFabApiSettings.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\Public\PlayFabAuthenticationContext.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\Public\PlayFabDataGatherer.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\Public\PlayFabEvents.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\Public\PlayFabLogger.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\Public\PlayFabSettings.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\Public\PluginContract.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\Public\PluginContractKey.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\Public\PluginManager.cs" />
+    <Compile Include="Assets\Scripts\Bomb.cs" />
+    <Compile Include="Assets\Scripts\BulletBehaviour.cs" />
+    <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\CameraMovement.cs" />
+    <Compile Include="Assets\Scripts\CameraShake.cs" />
+    <Compile Include="Assets\Scripts\Destroyer.cs" />
+    <Compile Include="Assets\Scripts\DistractibleObjects.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\GameOver.cs" />
+    <Compile Include="Assets\Scripts\GameStart.cs" />
+    <Compile Include="Assets\Scripts\Haki.cs" />
+    <Compile Include="Assets\Scripts\Laser.cs" />
+    <Compile Include="Assets\Scripts\Leaderboard.cs" />
+    <Compile Include="Assets\Scripts\LeftJoystick.cs" />
+    <Compile Include="Assets\Scripts\LeftJoystickPlayerController.cs" />
+    <Compile Include="Assets\Scripts\LeftJoystickTouchContoller.cs" />
+    <Compile Include="Assets\Scripts\LobbyManager.cs" />
+    <Compile Include="Assets\Scripts\LobbyPlayer.cs" />
+    <Compile Include="Assets\Scripts\LongClickButton.cs" />
+    <Compile Include="Assets\Scripts\PanelManager.cs" />
+    <Compile Include="Assets\Scripts\PlayFabController.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\PlayerProfile.cs" />
+    <Compile Include="Assets\Scripts\PlayerSetup.cs" />
+    <Compile Include="Assets\Scripts\PlayerShoot.cs" />
+    <Compile Include="Assets\Scripts\PlayerStats.cs" />
+    <Compile Include="Assets\Scripts\PlayerUI.cs" />
+    <Compile Include="Assets\Scripts\PlayerWeapon.cs" />
+    <Compile Include="Assets\Scripts\PresistentData.cs" />
+    <Compile Include="Assets\Scripts\SaveSystem.cs" />
+    <Compile Include="Assets\Scripts\SettingsData.cs" />
+    <Compile Include="Assets\Scripts\SettingsMenu.cs" />
+    <Compile Include="Assets\Scripts\StoreManager.cs" />
+    <Compile Include="Assets\Scripts\Util.cs" />
+    <Compile Include="Assets\Scripts\WeaponGraphics.cs" />
+    <Compile Include="Assets\Scripts\WeaponManager.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\LightningBolt\Readme.txt" />
+    <None Include="Assets\Materials\Skybox Cubemap Extended.shader" />
+    <None Include="Assets\Particle Effects\Shaders\PriorityParticleAdd.shader" />
+    <None Include="Assets\Particle Effects\Shaders\PriorityParticleAddSoft.shader" />
+    <None Include="Assets\Particle Effects\Shaders\PriorityParticleAlpha.shader" />
+    <None Include="Assets\PlayFabSdk\link.xml" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\NotoSans - License.txt" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald Bold - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\link.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>
